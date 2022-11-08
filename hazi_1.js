@@ -32,13 +32,19 @@ function changeInnerHtml() {
     document.getElementById("paragrafus").innerHTML = html;
   }
 
-  function over(i, j) {
-    id = i.toString() + j;
-    console.log(id);
-    document.getElementById(id).style.backgroundColor = "red";
-  }
+
+
+  
   function leave(i, j) {
     id = i.toString() + j;
     console.log(id);
     document.getElementById(id).style.backgroundColor = "white";
+  }
+
+
+
+function over(i, j) {
+    id = i.toString() + j;
+    console.log(id);
+    document.getElementById(id).style.backgroundColor = "red";
   }
