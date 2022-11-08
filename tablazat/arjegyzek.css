@@ -1,0 +1,21 @@
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+td:hover, th:hover{
+    background-color: yellow;
+}
+.kek{
+    background-color: blue;
+}
+.piros{
+    background-color: red;
+}
+.header{
+    text-align: center;
+    align-content: center;
+}
+table{
+    border: 2px solid black;
+}
